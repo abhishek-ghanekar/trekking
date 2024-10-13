@@ -14,7 +14,10 @@ const Navbar = () => {
       
       <p className="mr-5 hover:text-gray-900">Trek Gear</p>
       </Link>
-      <a className="mr-5 hover:text-gray-900">Trek Recommendations</a>
+      <Link to="/trekrecommendations">
+
+      <p className="mr-5 hover:text-gray-900">Trek Recommendations</p>
+      </Link>
       <a className="mr-5 hover:text-gray-900">Community</a>
     </nav>
     <Link to='/login'>
